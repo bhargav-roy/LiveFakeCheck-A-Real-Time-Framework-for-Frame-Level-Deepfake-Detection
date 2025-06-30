@@ -1,3 +1,4 @@
 # LiveFakeCheck-A-Real-Time-Framework-for-Frame-Level-Deepfake-Detection
 A PYQT5 application to test deepfake on live videos using weights of pre-trained models.
-![LiveFakeCheck drawio](https://github.com/user-attachments/assets/79e94b4a-7886-4113-94c1-15a4f94fb05d)
+
+![LiveFakeCheck](https://github.com/user-attachments/assets/8698cfa5-1ce9-4713-b12a-7d7610adc747)
