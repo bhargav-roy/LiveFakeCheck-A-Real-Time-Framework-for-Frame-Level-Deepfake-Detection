@@ -1,4 +1,3 @@
-
 # LiveFakeCheck – A Real-Time Framework for Frame-Level Deepfake Detection
 
 A **PyQt5-based application** for testing deepfake detection on live video streams using pretrained model weights.
@@ -11,13 +10,23 @@ This application is built on top of the [**Self-Blended Images (SBI)**](https://
 
 ## 🔧 Installation
 
+To create a conda environment, run:
+
+```bash
+conda create -n lfcenv python=3.9 -y
+```
+
+To activate conda environment, run:
+
+```bash
+conda activate lfcenv
+```
+
 To install the required dependencies, run:
 
 ```bash
 pip3 install -r requirements.txt
-````
-
-> ⚠️ Ensure Python 3.7+ and pip are installed.
+```
 
 ---
 
@@ -35,8 +44,8 @@ python main.py
 
 ## 🧪 Compatible Deepfake Software (for testing)
 
-* **DeepFaceLive**: [GitHub Link](https://github.com/iperov/DeepFaceLive)
-* **Avatarify Desktop (CUDA ≥ 11.8)**: [GitHub Link](https://github.com/tom-n96/avatarify-desktop-cuda-11.8)
+- **DeepFaceLive**: [GitHub Link](https://github.com/iperov/DeepFaceLive)
+- **Avatarify Desktop (CUDA ≥ 11.8)**: [GitHub Link](https://github.com/tom-n96/avatarify-desktop-cuda-11.8)
 
 ---
 
@@ -44,12 +53,11 @@ python main.py
 
 To route deepfake software output into this app:
 
-* **OBS Studio** (for virtual webcam): [obsproject.com](https://obsproject.com/)
+- **OBS Studio** (for virtual webcam): [obsproject.com](https://obsproject.com/)
 
 ---
 
 ## 📌 Notes
 
-* This framework currently supports frame-level models. Future versions may support optical flow–based or hybrid models.
-* Preprocessing sensitivity (e.g., sharpening) significantly impacts detection performance.
-
+- This framework currently supports frame-level models. Future versions may support optical flow–based or hybrid models.
+- Preprocessing sensitivity (e.g., sharpening) significantly impacts detection performance.
