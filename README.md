@@ -2,7 +2,7 @@
 
 A **PyQt5-based application** for testing deepfake detection on live video streams using pretrained model weights.
 
-![LiveFakeCheck](https://github.com/user-attachments/assets/8698cfa5-1ce9-4713-b12a-7d7610adc747)
+![LiveFakeCheck](https://github.com/user-attachments/assets/875ed71f-0eb4-4c63-aca8-00097e7d11ba)
 
 This application is built on top of the [**Self-Blended Images (SBI)**](https://github.com/mapooon/SelfBlendedImages) method to classify live video frames as real or fake.
 
